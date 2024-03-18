@@ -1,14 +1,14 @@
-# **Country**{: .color-primary} Statistics
+# **Country**{: .color-secondar} Statistics (1995 - 2023)
 
-<|layout|column=1|
+<center>
 <|{selected_country}|selector|lov={selector_country}|on_change=on_change_country|dropdown|label=Country|>
-
-|>
+</center>
 
 <|card|
-Total earhtquake <|{len(data_by_specific_country)}|> 
+## Major earthquake in 
+## <|{selected_country}|>{: .color-secondar}
 |>
 <br/>
-<|{data_by_specific_country}|chart|type=histogram|x=Area|y=magnitude|height=600px|>
+<|{data_by_specific_country}|chart|type=bar|x=Area|y=Magnitude|height=600px|>
 
 

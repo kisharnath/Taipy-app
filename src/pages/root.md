@@ -1,5 +1,5 @@
 <|toggle|theme|>
 
-<center>
+<center >
 <|navbar|>
 </center>
