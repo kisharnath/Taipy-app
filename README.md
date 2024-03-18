@@ -2,9 +2,9 @@
 #### I have used kaggle dataset you can go [here](https://www.kaggle.com/datasets/warcoder/earthquake-dataset?rvi=1)
 ### Step to run this app
 `git clone https://github.com/kisharnath/Taipy-app.git`
-### Then
+### Create virtual environment [See](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
 ```
-python -m venv myenv
+python -m venv myenv 
 .\myvenv\Scripts\activate
 cd Taipy-app
 cd src
