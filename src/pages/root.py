@@ -1,4 +1,4 @@
-from taipy.gui import Markdown 
+from taipy.gui import Markdown
 import numpy as np
 
 from data.data import data
