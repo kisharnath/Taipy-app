@@ -5,7 +5,7 @@
 ### Create virtual environment [See](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
 ```
 python -m venv myenv 
-.\myenv\Scripts\activate
+myenv\Scripts\activate
 cd Taipy-app
 cd src
 pip install -r requirements.txt 
