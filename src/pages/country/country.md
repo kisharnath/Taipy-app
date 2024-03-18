@@ -1,7 +1,7 @@
 # **Country**{: .color-primary} Statistics
 
 <|layout|column=1|
-<|{default_country}|selector|lov={default_country}|on_change=on_change_country|dropdown|label=Country|>
+<|{selected_country}|selector|lov={selector_country}|on_change=on_change_country|dropdown|label=Country|>
 
 |>
 
