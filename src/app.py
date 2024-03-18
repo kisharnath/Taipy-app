@@ -3,8 +3,8 @@ import taipy as tp
 
 
 from pages.country.country import country_md
-# from pages.root import root, selector_country, selected_country
-from pages.root import root
+from pages.root import root, selector_country, selected_country
+#from pages.root import root
 from pages.world.world import world_md
 from pages.map.map import map_md
 pages = {
